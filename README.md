@@ -1,11 +1,11 @@
-# 💼 Richard's Portfolio
+# 💼 Migration-Legacy-To-RestApi
 
-This repository is a **technical portfolio** prepared for the *Senior Fullstack .NET Developer* role.  
-It contains **code samples, architecture diagrams, case studies, and documentation** that showcase my experience in backend, frontend, and fullstack development.
+This repository is prepared for the *Senior Fullstack .NET Developer* role.  
+It contains **code samples, architecture diagrams, case studie, and documentation** that showcase my experience in backend, frontend, and fullstack development!.
 
 ---
 
-## 📌 About this Portfolio
+## 📌 About this Repository:
 This repository demonstrates my ability to design and deliver **modern, scalable applications** using:
 
 - **Backend:** .NET 8 (C#), Entity Framework Core, PostgreSQL  
