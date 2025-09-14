@@ -101,7 +101,7 @@ richard-portfolio/
 ---
 
 ## 📖 Case Study
-See [case-study-erp.pdf](docs/case-study-erp.pdf) for a **real-world project** explanation:  
+See  <a href="docs/case-study-erp.pdf" target="_blank">Case Study: ERP Modernization</a> for a **real-world project** explanation:  
 - **Problem:** Legacy ERP system with limited scalability.  
 - **Solution:** Migration to a modular architecture using .NET APIs and Vue SPA.  
 - **Result:** Improved performance, maintainability, and scalability.  
