@@ -119,7 +119,7 @@ See  <a href="docs/coding-guidelines-template.pdf" target="_blank">Coding Guidel
 ---
 
 ## 🧪 Testing
-- Backend unit tests with **xUnit** are available under `backend-dotnet-postgres/tests/`.  
+- Backend unit tests with **xUnit** are available under <a href="backend-dotnet-postgres/tests" target="_blank">`backend-dotnet-postgres/tests/`</a>.  
 - Example: Repository pattern tests, service layer validations, and API integration tests.  
 
 ---
