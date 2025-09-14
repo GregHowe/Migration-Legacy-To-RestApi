@@ -43,6 +43,9 @@ richard-portfolio/
 │   ├── 📄 docker-compose.yml
 │   └── 📄 README.md
 │
+├── 🐳 .github/      # Continuous Integration
+│   ├── 📁 workflows/ci.yml
+│
 ├── 📚 docs/                      # Documentation & case studies
 │   ├── 🖼️ architecture-diagram.png
 │   ├── 📑 case-study-erp.pdf
