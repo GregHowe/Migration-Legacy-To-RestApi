@@ -1,0 +1,32 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  backend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+      - name: Restore and test backend
+        working-directory: backend-dotnet-postgres
+        run: |
+          dotnet restore
+          dotnet test --no-build --verbosity normal
+
+  frontend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install and run frontend tests
+        working-directory: frontend-vue-demo
+        run: |
+          npm ci --legacy-peer-deps
+          npm run test

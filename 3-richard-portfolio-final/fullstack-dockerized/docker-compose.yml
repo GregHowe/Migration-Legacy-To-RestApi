@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: productdb
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    build:
+      context: ../backend-dotnet-postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Database=productdb;Username=postgres;Password=postgres
+      - Jwt__Key=very_secret_key_12345
+    depends_on:
+      - db
+    ports:
+      - "5000:80"
+
+  frontend:
+    build:
+      context: ../frontend-vue-demo
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
+volumes:
+  dbdata:
