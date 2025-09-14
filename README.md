@@ -63,7 +63,7 @@ richard-portfolio/
 ---
 
 ## 📊 Architecture Overview
-![Architecture Diagram](docs/architecture-diagram.png)
+<!-- ![Architecture Diagram](docs/architecture-diagram.png) --> 
 ```
                   ┌───────────────────────────┐
                   │        Frontend (Vue 3)    │
