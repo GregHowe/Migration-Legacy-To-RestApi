@@ -30,25 +30,26 @@ This repository demonstrates my ability to design and deliver **modern, scalable
 ## 📂 Repository Structure
 
 richard-portfolio/
-│── backend-dotnet-postgres/ # API with .NET + PostgreSQL
-│ ├── src/
-│ ├── tests/
-│ └── README.md
+├── 📦 backend-dotnet-postgres/   # API with .NET + PostgreSQL
+│   ├── 📁 src/
+│   ├── 🧪 tests/
+│   └── 📄 README.md
 │
-│── frontend-vue-demo/ # Vue 3 demo application
-│ ├── src/
-│ └── README.md
+├── 🎨 frontend-vue-demo/         # Vue 3 demo application
+│   ├── 📁 src/
+│   └── 📄 README.md
 │
-│── fullstack-dockerized/ # Docker Compose setup for fullstack demo
-│ ├── docker-compose.yml
-│ └── README.md
+├── 🐳 fullstack-dockerized/      # Docker Compose setup
+│   ├── 📄 docker-compose.yml
+│   └── 📄 README.md
 │
-│── docs/ # Documentation & case studies
-│ ├── architecture-diagram.png
-│ ├── case-study-erp.pdf
-│ └── coding-guidelines.md
+├── 📚 docs/                      # Documentation & case studies
+│   ├── 🖼️ architecture-diagram.png
+│   ├── 📑 case-study-erp.pdf
+│   └── 📄 coding-guidelines.md
 │
-└── README.md # You are here
+└── 🏠 README.md                  # You are here
+
 
 ---
 
