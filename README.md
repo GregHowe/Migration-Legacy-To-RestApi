@@ -28,7 +28,7 @@ This repository demonstrates my ability to design and deliver **modern, scalable
 ---
 
 ## 📂 Repository Structure
-
+```
 richard-portfolio/
 ├── 📦 backend-dotnet-postgres/   # API with .NET + PostgreSQL
 │   ├── 📁 src/
@@ -49,7 +49,7 @@ richard-portfolio/
 │   └── 📄 coding-guidelines.md
 │
 └── 🏠 README.md                  # You are here
-
+```
 
 ---
 
