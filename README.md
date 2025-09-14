@@ -73,7 +73,7 @@ richard-portfolio/
                   └───────────────────────────┘
                                 │ REST API
                                 │ JSON
-                  ┌───────────────▼───────────┐
+                  ┌────────▼───────────────────┐
                   │        Frontend (Vue 3)    │
                   │  - Vue Router              │
                   │  - Pinia / Vuex            │
@@ -81,7 +81,7 @@ richard-portfolio/
                   └───────────────────────────┘
                                 │ REST API
                                 │ JSON
-                  ┌─────────────▼─────────────┐
+                  ┌───────▼───────────────────┐
                   │      Backend (.NET 8)     │
                   │  - Controllers (REST)     │
                   │  - Services (Business)    │
@@ -90,7 +90,7 @@ richard-portfolio/
                   └──────────────────────────┘
                                 │ SQL
                                 │
-                  ┌─────────────▼─────────────┐
+                  ┌──────▼────────────────────┐
                   │     Database (Postgres)   │
                   │  - Relational Tables      │
                   │  - Stored Procedures      │
