@@ -28,3 +28,49 @@ This repository demonstrates my ability to design and deliver **modern, scalable
 ---
 
 ## 📂 Repository Structure
+
+
+---
+
+## ⚡ Key Features
+- ✅ Backend REST API with CRUD endpoints (C# / .NET 8 / EF Core / PostgreSQL)  
+- ✅ Frontend Vue 3 application consuming the API  
+- ✅ Dockerized environment for easy deployment  
+- ✅ Unit tests with xUnit  
+- ✅ Documentation and architecture diagrams  
+
+---
+
+## 📊 Architecture Overview
+![Architecture Diagram](docs/architecture-diagram.png)
+
+---
+
+## 📖 Case Study
+See [case-study-erp.pdf](docs/case-study-erp.pdf) for a **real-world project** explanation:  
+- **Problem:** Legacy ERP system with limited scalability.  
+- **Solution:** Migration to a modular architecture using .NET APIs and Vue SPA.  
+- **Result:** Improved performance, maintainability, and scalability.  
+
+---
+
+## 🧪 Testing
+- Backend unit tests with **xUnit** are available under `backend-dotnet-postgres/tests/`.  
+- Example: Repository pattern tests, service layer validations, and API integration tests.  
+
+---
+
+## 🚀 How to Run Locally
+```bash
+# 1. Clone the repository
+git clone https://github.com/<your-github-username>/richard-portfolio.git
+
+# 2. Navigate to the dockerized setup
+cd richard-portfolio/fullstack-dockerized
+
+# 3. Start the stack
+docker-compose up --build
+
+# 4. Access the applications
+# API: http://localhost:5000
+# Frontend: http://localhost:8080
