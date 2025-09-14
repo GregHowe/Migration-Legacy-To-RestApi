@@ -6,7 +6,6 @@ It contains **code samples, architecture diagrams, case studies, and documentati
 ---
 
 ## 📌 About this Portfolio
-The client requested a portfolio instead of a coding assessment.  
 This repository demonstrates my ability to design and deliver **modern, scalable applications** using:
 
 - **Backend:** .NET 8 (C#), Entity Framework Core, PostgreSQL  
