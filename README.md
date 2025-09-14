@@ -109,7 +109,7 @@ See  <a href="docs/case-study-erp.pdf" target="_blank">Case Study: ERP Moderniza
 ---
 
 ## 🧩  Coding Guidelines Template
-See  <a href="docs/coding-guidelines-template.pdf" target="_blank">Case Study: ERP Modernization</a> for a **real-world project** explanation:  
+See  <a href="docs/coding-guidelines-template.pdf" target="_blank">Coding Guidelines Template</a> for a **real-world project** explanation:  
 - **These guidelines ensure clean, maintainable, and consistent code across projects.  
 - **Topics Covered:** Project Structure, Naming conventions, C# / .NET Guidelines, Vue 3 / Git & Version Control, Testing Strategy, Code Quality Tools.
 ---
