@@ -68,8 +68,8 @@ richard-portfolio/
 ## 📊 Architecture Overview
 <!-- ![Architecture Diagram](docs/architecture-diagram.png) --> 
                   ┌───────────────────────────┐
-                  │        	 User Browser  	│
-                  │  - Requested           	│
+                  │        	 User Browser   	│
+                  │  - Requested            	│
                   └───────────────────────────┘
                                 │ REST API
                                 │ JSON
